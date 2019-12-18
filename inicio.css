@@ -1,0 +1,140 @@
+/* -----Barra Navegacion--- */
+.custmNavLogo {
+    width: 70px;
+}
+
+
+/* -----Mapa---- */
+.mapagoogle{
+    /* border: solid 2px yellow; */
+    margin-top: 60px;
+    padding: 10px 10px 0 10px;
+    
+}
+
+/* -----Dirección------ */
+
+.Address{
+    /* border: solid 2px black; */
+    padding: 0;
+}
+
+.modal-content{
+    padding:  0;
+    border-color: white;
+}
+
+.modal-dialog{
+    /* border: solid 2px salmon; */
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2{
+    /* border: solid 2px green; */
+    font-size: 20px;
+    margin-top: 10px;
+    color:black;
+}
+
+.form-group input{
+    height: 42px;
+    font-size: 16px;
+    border: 0%;
+    padding-right: 54px;
+    border-radius: 5px;
+}
+
+.form-group::before{
+    font-family:"Font Awesome\ 5 Free";
+    position: absolute;
+    right: 28px;
+    font-size: 22px;
+    padding-top: 4px;
+}
+
+.form-group#user-group::before{
+    content: "\f21d";
+}
+
+.form-group#contraseña-group::before{
+    content: "\f1b9";
+}
+
+
+
+/* ----- Opciones --- */
+main{
+    /* border: solid 2px teal; */
+    justify-content: center;
+    height: 55vh;
+}
+
+.container{
+    /* border: solid 2px orange; */
+    padding: 0px;
+}
+
+.containercard{
+    /* border: solid 2px purple; */
+    padding: 10px;
+}
+h5{
+    /* border: solid 2px salmon; */
+    margin: 5px;
+    font-size: 16px;
+}
+
+p{
+    margin-bottom: 6px;
+}
+.imagenes{
+    /* border: solid 2px orange; */
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card{
+    /* border: solid 2px black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image{
+width: 6vw;
+}
+
+.card-body{
+padding: 0;
+height: 11vh;
+width: 13vw;
+}
+
+.btncard{
+    /* border: solid 2px greenyellow; */
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+/* -----footer--- */
+footer {
+    /* border: solid 2px red; */
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;  
+    background: black;
+}
+
+footer > a {
+    color:white;
+}

@@ -1,0 +1,173 @@
+/* -----Barra Navegacion--- */
+.custmNavLogo {
+    width: 70px;
+}
+
+.button{
+  border-radius: 5px;
+}
+
+.titulo {
+    /* border: solid 2px gold; */
+    margin-top: 70px;
+}
+
+h4{
+    font-size: 18px;
+}
+.parra{
+    font-size: 12px;
+}
+/* ----Contenido---- */
+.row{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+
+}
+
+/* html, body { height:100%; width:100%; margin:0; padding:0 } */
+
+/* body {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.card, .container{
+    display: flex;
+    justify-content: center;
+padding-top: 40px ;
+ 
+}
+
+switch {
+  --ease: cubic-bezier(0, 1, 0.5, 1);
+  --ease-time: 0.5s;
+  
+  position: relative; 
+  display: flex;
+  justify-content: center;
+  width: 60px;
+  height: 30px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+switch track,
+switch thumb,
+switch input[type=checkbox] {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+}
+
+switch track,
+switch thumb {
+  height: 0;
+  padding-top: 50%;
+  border-radius: inherit;
+  background-color: rgb(255, 122, 122);
+  transition:
+    left var(--ease-time) var(--ease),
+    background-color var(--ease-time) var(--ease);
+}
+
+switch track {
+  width: 100%;
+  filter: brightness(1.8);
+  z-index: 0;
+}
+
+switch thumb {
+  width: 50%;
+  z-index: 1;
+}
+
+switch input[type=checkbox] {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  cursor: pointer;
+}
+
+switch input[type=checkbox]:checked ~ track,
+switch input[type=checkbox]:checked ~ thumb {
+  background-color: rgb(122, 255, 122);
+}
+
+switch input[type=checkbox]:checked ~ thumb {
+  left: 50%;
+}
+
+.buttoncustom{
+display: flex;
+justify-content: center;
+margin: 40px 0px 40px 0px;
+
+}
+
+.customnav{
+
+    background-color: black;
+    
+    }
+    
+    .nav-link{
+        color:white;
+    }
+
+/* Optional Thumb Text
+
+switch thumb::after {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 0;
+  text-align: center;
+  line-height: 0;
+  content: 'off';
+}
+
+switch input[type=checkbox]:checked ~ thumb::after {
+  content: 'on';
+}
+/* -----footer--- */
+footer {
+    /* border: solid 2px red; */
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    background: black;
+}
+
+footer>a {
+    color: white;
+
+}
+
+/* @media screen and (max-width:576)px{
+    .card{
+        width:100%
+    }
+} */
+
+/* -----Aviso Privacidad--- */
+.containeraviso{
+    /* border: solid 2px salmon; */
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 70px;
+}

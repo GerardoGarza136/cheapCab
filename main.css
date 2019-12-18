@@ -1,0 +1,27 @@
+body{
+background-color: black;
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+}
+
+/* ------cuerpo de pag---- */
+.logoinicio{
+    margin-top: 20vh;
+}
+
+h1{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+button{
+    margin-top: 60px;
+}
+
+
+
+
+

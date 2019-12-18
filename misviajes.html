@@ -1,0 +1,158 @@
+<!doctype html>
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="misviajes.css">
+  <link rel="icon" type="image/png" href="./assets/Logo1.png">
+  <link rel="stylesheet" href="grid.css">
+  <style>
+    body {
+      padding-top: 70px;
+      /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+
+    .othertop {
+      margin-top: 10px;
+    }
+  </style>
+
+  <!-- -----Font Awesome-- -->
+  <link rel="stylesheet" href="../fontawesome-free-5.12.0-web/css/solid.css">
+  <script src="https://kit.fontawesome.com/1d1a0bffcc.js" crossorigin="anonymous"></script>
+  <title>Mis Viajes</title>
+</head>
+
+<body>
+  <header>
+    <section class="Nav">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="background-color: black;">
+        <a class="navbar-brand" href="#"></a>
+        <img class="custmNavLogo" src="./assets/Logo2.png" alt="logo">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="inicio.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="opciones.html">Opciones</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Perfil
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="perfil.html">Mi Información</a>
+                <a class="dropdown-item" href="#">Mis Viajes</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <a class="btn btn-primary my-2 my-sm-0" type="submit" href="login.html">Cerrar Sesión</a>
+          </form>
+        </div>
+      </nav>
+    </section>
+  
+    <h2>Mis Viajes</h2>
+  </header>
+
+  <main>
+    <div class=" viajes col-7">
+    <div class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <p>14 de Diciembre 2019, 9:48pm</p>
+            </button>
+          </h2>
+        </div>
+    
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            <img class="imagen" src="./assets/viaje1.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <p>22 de Octubre 2019, 8:16pm</p>
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            <img class="imagen" src="./assets/viaje2.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <p>18 de Octubre 2019, 8:55pm</p>
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
+            <img class="imagen" src="./assets/viaje3.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <section class="derecha">
+  <div class="foto">
+    <div class="card" style="width: 16rem;">
+      <img class="imagen card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQbJeComBAyyn8N1qZEtLhMr08MGyBBh-k7MfjAcj3ZiZz2UjTj" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Consigue un viaje en cuestión de minutos</h5>
+        <p class="text-justify card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque voluptates veniam aliquid quisquam quis porro mollitia odio. Illum dolor assumenda ipsam quasi esse quis quia quam dolores! Alias, consequatur atque!</p>
+        <a href="inicio.html" class="btn btn-primary">Solicitar Viaje</a>
+      </div>
+    </div>
+  </div>
+</section> -->
+  </main>
+
+
+
+
+</body>
+<!-- ----- Footer --- -->
+<footer class="text-center">
+  <a href="aviso.html">Aviso de Privacidad</a>
+</footer>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+
+</html>
